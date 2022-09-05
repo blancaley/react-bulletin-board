@@ -1,7 +1,7 @@
 const PostLiked = () => {
   return (
-    <div>
-      <p>You have liked this post!</p>
+    <div className="like-msg">
+      <p>👍 You have liked this post! </p>
     </div>
   );
 }
