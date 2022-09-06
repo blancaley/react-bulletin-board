@@ -15,7 +15,7 @@ const BulletinBoard = () => {
 
   return (
     <div>
-      { FAQ.map((e) => <ReactPost question={e.question} answer={e.answer}/>) }
+      { FAQ.map((e, i) => <ReactPost key={i} question={e.question} answer={e.answer}/>) }
     </div>
 
   );
